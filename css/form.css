@@ -1,0 +1,104 @@
+.rsvp-section .container {
+    padding: 80px 0 80px;
+    background-color: #fb839e;
+}
+
+.rsvp-section .section-title h2,
+.rsvp-section .section-title p {
+    color: #fff;
+}
+
+.form-valid {
+    width: 362px;
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgb(51 62 73 / 10%);
+    margin: 50px auto;
+}
+
+.form {
+    width: 450px;
+    padding: 34px 34px;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 4px #888888;
+}
+
+.introduce {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.introduce h2 {
+    margin: 11px 0;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.form-group {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+label.form-label {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    font-size: 14px;
+    padding: 9px;
+    border: 1px solid #80808087;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.form-group input:hover,
+.form-group select:hover {
+    border-color: #166f63;
+}
+
+button.form-submit {
+    border: none;
+    background: #3ec7b4;
+    border-radius: 10px;
+    font-weight: 600;
+    width: 100%;
+    padding: 12px 0;
+    color: #fff;
+    font-size: 14px;
+    transition: 0.4s;
+}
+
+button.form-submit:hover {
+    cursor: pointer;
+    background-color: #166f63;
+}
+
+.invalid span {
+    color: red;
+    font-size: 15px;
+}
+
+.invalid input,
+.invalid select {
+    background-color: #ff000029;
+    border-color: red;
+}
+
+.rsvp-form {
+    display: flex;
+    justify-content: center;
+    background-color: #fb839e;
+}
+
+#message {
+    height: 120px;
+    padding: 8px;
+    resize: none;
+}
+
